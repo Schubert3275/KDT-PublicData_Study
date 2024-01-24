@@ -9,8 +9,8 @@ def get_minmax_temp(data):
     """
     fout = open('temp_print.csv', 'w', newline='', encoding='utf-8-sig')
     wr = csv.writer(fout, delimiter=',')
-    wr.writerow(('최저 기온 날짜', '최저 기온', '최고 기온 날짜', '최고 기온'))
     header = next(data)
+    wr.writerow((f'최저 기온 {header[0]}', header[3], f'최고 기온 {header[0]}', header[4]))
 
     min_temp = 100  # 최저 기온값을 저장할 변수 초기화(가장 큰 값)
     min_date = ''  # 최고 기온의 날짜를 저장할 변수 초기화
