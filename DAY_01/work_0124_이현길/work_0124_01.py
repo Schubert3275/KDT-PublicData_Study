@@ -15,7 +15,7 @@ def draw_bar_graph(title, x_data, day_temp_rate):
 
 
 def main():
-    file = '../daegu-utf8-df.csv'
+    file = 'daegu-utf8-df.csv'
     weather_df = pd.read_csv(file, encoding='utf-8')
     weather_df['날짜'] = pd.to_datetime(weather_df['날짜'], format='%Y-%m-%d')
     weather_df['일교차'] = (weather_df['최고기온'] - weather_df['최저기온']).round(1)

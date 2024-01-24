@@ -16,7 +16,7 @@ def draw_minmax_graph(title, x_data, min_temp, max_temp):
 
 
 def main():
-    file = '../daegu-utf8-df.csv'
+    file = 'daegu-utf8-df.csv'
     weather_df = pd.read_csv(file, encoding='utf-8-sig')
     weather_df['날짜'] = pd.to_datetime(weather_df['날짜'], format='%Y-%m-%d')
     high_temp_list = []
