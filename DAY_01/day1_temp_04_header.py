@@ -9,6 +9,6 @@ i = 1
 for row in data:
     print(row)
     if i >= 5:
-        break
+        break  # 5개의 데이터를 출력하면 break
     i += 1
 f.close()

@@ -16,6 +16,6 @@ for row in data:
 f.close()
 plt.hist(aug, bins=100, color='tomato')
 plt.title("대구 8월의 최고 기온 히스토그램")
-plt.xlabel("Temperature")
-plt.ylabel("Counts")
+plt.xlabel("Temperature")  # x축 레이블
+plt.ylabel("Counts")       # y축 레이블
 plt.show()
