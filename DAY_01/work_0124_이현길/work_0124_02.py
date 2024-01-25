@@ -1,11 +1,15 @@
+"""
+    2. 대구 기온 데이터에서 시작 연도, 마지막 연도를 입력하고
+       특정 월의 최고 기온 및 최저 기온의 평균값을 구하고 그래프로 표현
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 
 
 def draw_minmax_graph(title, x_data, min_temp, max_temp):
-    plt.rcParams['axes.unicode_minus']= False
-    plt.figure(figsize=(20, 4))
+    plt.rcParams['axes.unicode_minus'] = False
+    plt.figure(figsize=(18, 4))
     plt.plot(x_data, min_temp, label='최저기온', color='b', marker='s')
     plt.plot(x_data, max_temp, label='최고기온', color='r', marker='s')
     plt.xticks(x_data)

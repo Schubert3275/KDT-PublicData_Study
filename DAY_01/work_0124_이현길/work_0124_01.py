@@ -1,10 +1,14 @@
+"""
+    1. 과거 10년 동안의 대구 날씨 데이터에서 1년 중
+       일교차가 가장 큰 달은 각각 몇 월인지 그래프로 표시
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 
 
 def draw_bar_graph(title, x_data, day_temp_rate):
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 5))
     plt.bar(x_data, day_temp_rate)
     plt.xticks(x_data)
 
