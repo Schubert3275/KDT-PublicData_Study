@@ -20,7 +20,7 @@ with open('subwaytime.csv', encoding='utf-8-sig') as f:
         result.append(row[4])
         if row[4] > max_num:
             max_num = row[4]
-            max_station =  row[3]
+            max_station = row[3]
 
 print(f'새벽 4시 승차 인원 수: {total_number:,}')
 print(f'최대 승차역: {max_station}, 인원수: {max_num:,}')
