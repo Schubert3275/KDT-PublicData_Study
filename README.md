@@ -54,4 +54,15 @@
     * 무임승차 인원이 0인 역 찾기 #1
 - day2_subwayfee_04.py
     * 최대 무임 승차 비율 확인
-
+- day2_subwayfee_05.py
+    * 최대 유임 승차 인원이 있는 역
+- day2_subwayfee_06.py
+    * 유임 승차 비율이 50% 이하인 역
+- day2_subwayfee_07.py
+    * 승·하차 인원이 가장 많은 역
+- day2_subwayfee_08.py
+    * 전체 지하철 역 파이차트 분석
+- day2_subwaytime_01.py
+    * 시간대별 지하철 이용 인원 수 -> 새벽 4시 지하철 승차 전체 인원
+- day2_subwaytime_02.py
+    * 시간대별 지하철 이용 인원 수 -> 새벽 4시 지하철
