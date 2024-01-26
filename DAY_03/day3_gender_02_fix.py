@@ -46,7 +46,7 @@ def calcutate_population():
             for male in row[106:207]:  # 남성 연령별 인구수 구간
                 if ',' in male:
                     male = male.replace(',', '')  # 천단위 콤마 제거
-                male_num_list.append(int(male))
+                male_num_list.append(-int(male))  # 남성 그래프를 좌측에 표시하기 위함
             for female in row[209:310]:
                 if ',' in female:
                     female = female.replace(',', '')

@@ -99,3 +99,19 @@
 - day3_gender_01.py
     * gender.csv 헤더 정보
 - day3_gender_02.py
+    * 연령별 성별 데이터 시각화 -> 2개 데이터가 겹쳐 있어 구분이 어려움
+- day3_gender_02_fix.py
+    * 연령별 성별 데이터 시각화 -> 남성 비율을 음수로 저장해 항아리 모양으로 표시
+- day3_gender_03.py
+    * 특정 지역의 남녀 인구 비율
+- day3_gender_04.py
+    * 서울특별시 및 5대 광역시의 남녀 인구수 비교
+- day3_gender_05.py
+    * 제주도의 연령대별 성별 비율 산점도
+- scatter_colorbar.py
+    * 색상 범례 추가
+
+#### DAY_03 실습과제
+    1. pass
+    2. pass
+
