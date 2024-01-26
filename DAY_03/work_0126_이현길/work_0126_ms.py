@@ -15,10 +15,10 @@ magic_square = [[0 for _ in range(input_size)] for _ in range(input_size)]
 
 for i in range(input_size**2):
     magic_square[y][x] = i+1
-    y_new = (y - 1) if y > 0 else (input_size - 1)
-    x_new = (x + 1) if x < (input_size - 1) else 0
+    y_new = (y-1) % input_size
+    x_new = (x+1) % input_size
     if magic_square[y_new][x_new] != 0:
-        y += 1
+        y = (y+1) % input_size
     else:
         y, x = y_new, x_new
 

@@ -11,7 +11,7 @@ with open('gender.csv', encoding='utf-8-sig') as f:
     city = '대구광역시'
     count = 1
 
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(10, 8))
     color = ['cornflowerblue', 'tomato']
     for row in data:
         if city in row[0]:
@@ -25,6 +25,6 @@ with open('gender.csv', encoding='utf-8-sig') as f:
         if count > 9:
             break
 
-plt.suptitle(city + " 구별 남녀 인구 비율")
+plt.suptitle(city + " 구별 남녀 인구 비율", size=30)
 plt.tight_layout()
 plt.show()
