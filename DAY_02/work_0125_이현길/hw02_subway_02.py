@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import platform
 import koreanize_matplotlib
 
-f = open('subwaytime.csv')
+f = open('subwaytime.csv', encoding='utf-8')
 data = csv.reader(f)
 next(data)
 next(data)
